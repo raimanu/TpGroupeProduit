@@ -1,8 +1,8 @@
 public class Vetement extends Product {
-    protected String desc;
+    protected String taille;
     public Vetement(String nom, double prix, String taille){
         super(nom,prix);
-        this.desc = taille;
+        this.taille = taille;
     }
     /**
      *Permet de changer le prix du produit
@@ -27,6 +27,6 @@ public class Vetement extends Product {
      */
     @Override
     public void showProduct() {
-        System.out.println("Le vetement "+nom+" coûte "+prix+" euro\n"+"Taille : "+desc+"\n");
+        System.out.println("Le vetement "+nom+" coûte "+prix+" euro\n"+"Taille : "+taille+"\n");
     }
 }

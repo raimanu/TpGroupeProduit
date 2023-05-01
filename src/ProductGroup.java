@@ -33,7 +33,7 @@ public class ProductGroup extends Product {
     /**
      * Renvoie le produit à l'index indiqué
      * @param index L'index du produit
-     * @return
+     * @return Le produit à l'index indiqué
      */
     public Product getProduct(int index) {
         return lot.get(index);
